@@ -1,0 +1,33 @@
+
+h2{
+    margin-top:25px;
+}
+
+.reload{
+    font-size:26px;
+    background: none;
+    border: 1px solid #333;
+    margin: 0px 15px;
+}
+.categories-container{
+    position: relative;
+    display: inline-block;
+}
+.deleteHistory{
+    background: #d64848;
+    position: absolute;
+    top:0;
+    right:-45px;
+    margin:25px 0px 0px;
+    padding: 0px 10px;
+}
+.main-image{
+    max-width: 350px;
+    max-height: 350px;
+    margin: 20px 0;
+    border: 3px solid #333;
+}
+.list-group{
+    max-width: 630px;
+    margin: 10px auto;
+}

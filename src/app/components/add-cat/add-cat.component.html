@@ -1,0 +1,4 @@
+<form class="form" (ngSubmit)="onSubmit()"> 
+  <input type="text" name="category" [(ngModel)] = 'category' placeholder='Cat Category...' #searchbar>
+  <input type="submit" value='Favorite' class='btn' (click)="searchbar.value=''">
+</form>
